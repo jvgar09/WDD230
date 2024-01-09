@@ -1,1 +1,3 @@
-alert(document.lastModified);
+
+
+let nLastModif = Date.parse(document.lastModified);
