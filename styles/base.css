@@ -112,9 +112,11 @@ nav a:hover {
 }
 
 .information > .p {
-    margin-left: 16px;
+    margin-left: 50px;
     margin-bottom: 8px;
     list-style-type: none;
+    text-align: center;
+    margin: auto;
 }
 
 .active {
