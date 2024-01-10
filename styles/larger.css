@@ -1,4 +1,4 @@
-@media screen and (min-width: 758) {
+@media only screen and (min-width: 1000px) {
 
     nav ul {
         display: flex;
@@ -8,19 +8,23 @@
         flex: 1 1 100%;
     }
 
-    .main {
+    .content {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        column-gap: 10px;
-        
+        column-gap: 5px;   
     }
 
-    .main section {
+    /* .main section {
         box-shadow: 1px 1px 10px black;
+    } */
+    .learning{
+        grid-column: 1 / 2;
+        box-shadow: 1px 1px 20px black;
     }
 
     .informaion {
         grid-column: 2 / 3;
+        box-shadow: 1px 1px 20px black;
     }
 
 }
