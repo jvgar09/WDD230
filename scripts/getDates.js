@@ -1,3 +1,3 @@
 
 
-let nLastModif = Date.parse(document.lastModi
+let nLastModif = Date.parse(document.lastModified);
