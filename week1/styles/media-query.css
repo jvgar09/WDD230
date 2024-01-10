@@ -15,4 +15,12 @@ footer {
 
 main {
     display: grid;
-    gri
+    /* gri */
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+section {
+    padding: 1rem;
+    background-color: #fff;
+}
