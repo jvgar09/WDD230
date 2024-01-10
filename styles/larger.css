@@ -1,5 +1,9 @@
 @media only screen and (min-width: 1000px) {
 
+    header > img {
+        box-shadow: 1px 1px 5px black;
+    }
+
     nav ul {
         display: flex;
     }
@@ -26,9 +30,4 @@
         grid-column: 2 / 3;
         box-shadow: 1px 1px 20px black;
     }
-
-    header > img {
-        box-shadow: 1px 1px 5px black;
-    }
-
 }
