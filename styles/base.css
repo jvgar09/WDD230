@@ -8,6 +8,8 @@ body {
     font-family: "Robotomono", sans-serif;
 }
 
+
+
 header {
 	background-color: #bbb;
 	display: flex;
@@ -15,6 +17,7 @@ header {
 	justify-content: center;
 	padding: 20px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
+    
 }
 header > main {
 	max-width: 767px;

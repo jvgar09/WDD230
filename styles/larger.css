@@ -11,7 +11,7 @@
     .content {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        column-gap: 5px;   
+        column-gap: 5px;  
     }
 
     /* .main section {
@@ -25,6 +25,10 @@
     .informaion {
         grid-column: 2 / 3;
         box-shadow: 1px 1px 20px black;
+    }
+
+    header > img {
+        box-shadow: 1px 1px 10px black;
     }
 
 }
