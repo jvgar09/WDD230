@@ -141,9 +141,9 @@ nav a:hover {
 }
 
 .active {
-    background-color: rgba(0, 0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     color: yellow;
-    background-color: rgb(0, 0, 0, 0, 0.3);
+   
 }
 
 .footer {
@@ -157,5 +157,8 @@ nav a:hover {
     /* fixed */
 }
 
-	
-  
+.footer_info > p {
+    margin-bottom: 10px;
+}
+
+.

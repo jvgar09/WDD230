@@ -34,7 +34,7 @@
     </nav>
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
-        <section class="content">
+        <div class="content">
             <section class="learning">
                 <h2 class="card">Learning Activities</h2>
                 <ul>
@@ -56,16 +56,24 @@
                 <p> Weather: <span id="weather"></span></p>
                 <p> Page Visits: <span id="visits"></span></p>
             </section>
-        </section>
+        </div>
 
     </main>
     
     <footer>
-        <section class="footer">
-            <p>©2024 Javier I. Garcia  Texas <span></span></p>
-            <p id="lastModified"></p>
-        </section>
-        <img src="images/tx_flag.jpg" alt="" width="40" height="40">
+        <div class="footer">
+            <div class="footer_info">
+                <p>©2024</p>
+                <p>Javier I. Garcia</p>
+                <div class="country">
+                    <p>Texas</p>
+                    <img src="images/tx_flag.jpg" alt="" width="40" height="40">
+                </div>
+            </div>
+            <!-- <p>©2024 Javier I. Garcia  <span></span></p> -->
+            <p >Last modification: <span id="lastModified"></span></p>
+        </div>
+        <!-- <img src="images/tx_flag.jpg" alt="" width="40" height="40"> -->
 
 
     </footer>
