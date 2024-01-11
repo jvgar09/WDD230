@@ -161,4 +161,11 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
-.
+.country {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+	
+  
