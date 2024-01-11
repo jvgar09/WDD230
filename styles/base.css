@@ -159,13 +159,14 @@ nav a:hover {
 }
 
 .footer_info > p {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .country {
     display: flex;
     justify-content: center;
     align-items: center;
+    column-gap: 5px;
 }
 
 	
