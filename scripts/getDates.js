@@ -1,4 +1,3 @@
-
 // let nLastModif = Date.parse(document.lastModified);
 console.log(document.lastModified)
 
