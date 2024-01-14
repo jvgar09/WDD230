@@ -47,14 +47,9 @@ button {
 	padding: 0.5rem;
 }
 
-.container {
-    margin: 20px;
-}
-
 ul {
 	margin: 1rem;
 	list-style: none;
-    padding: 0;
 }
 
 li {
