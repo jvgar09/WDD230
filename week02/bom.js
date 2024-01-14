@@ -22,4 +22,7 @@ button.addEventListener('click', function () {
         input.focus();
     } else {
 
-        input.focus
+        input.focus();
+    }
+});
+
