@@ -8,6 +8,29 @@ body {
     font-family: "Roboto mono", monospace;
 }
 
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: #eee;
+	color: #000;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+.show li {
+	display: block;
+}
+
+#menu.show::before {
+	content: "X";
+}
+
+
 
 header {
     background-color: #bbb;
@@ -77,10 +100,11 @@ nav a {
 
 }
 
-nav a:hover {
+nav a:hover, nav a:active {
     background-color: #8d99ae;
     /*rgba(36, 67, 53, 0.2)*/
 }
+
 
 
 .learning {
