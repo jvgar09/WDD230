@@ -76,8 +76,13 @@ a.active.show {
     position:absolute;
     text-align:center;
     left: 50%;
-    top: 50%;
+    top: 20%;
     transform: translate(-50%, -50%);
+    border: 2px solid #edf2f4;
+    background-color: #b49b50;
+    padding: 12px;
+    color: black;
+
     
 }
 
