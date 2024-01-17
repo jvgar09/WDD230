@@ -35,7 +35,7 @@ ul .active .show {
 
 
 .mode {
-	position: right;
+	position: absolute;
 	top: 1rem;
 	right: 1rem;
 	font-size: 3rem;
