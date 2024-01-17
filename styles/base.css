@@ -6,6 +6,7 @@
 
 body {
     font-family: "Roboto mono", monospace;
+    transition: background-color 0.5 ease;
 }
 
 #menu {
@@ -214,6 +215,4 @@ nav a:hover, nav a:active {
 .country {
     display: flex;
     justify-content: center;
-    align-items: center;
-    column-gap: 5px;
-}
+  
