@@ -18,6 +18,9 @@
 
     .hide {
         display: flex;
+        justify-content: center;
+        
+        
 
     }
 
