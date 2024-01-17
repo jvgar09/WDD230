@@ -52,4 +52,12 @@
     .footer_info{
         display: flex;
         justify-content: center;
-        align-items: cente
+        align-items: center;
+    }
+    .footer_info > p{
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+
+
+}

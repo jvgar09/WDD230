@@ -177,30 +177,4 @@ a.active.show {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-
-
-}
-
-.spotlights>.card {
-    text-align: left;
-    padding: 12px;
-    background-color: #2b2d42;
-
-    color: white;
-}
-
-.spotlights>ul {
-    margin: 12px;
-}
-
-.spotlights>ul {
-    margin: 12px;
-}
-
-.spotlights>ul>li {
-    margin-left: 16px;
-    margin-bottom: 8px;
-    list-style-type: none;
-    text-align: center;
-}
+    width: 5
