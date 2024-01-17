@@ -45,6 +45,11 @@ ul .active .show {
     color: #333; /* Light mode text color */
 }
 
+.dark-mode {
+    background-color: #333; /* Dark mode background color */
+    color: #fff; /* Dark mode text color */
+}
+
 
 
 
