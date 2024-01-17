@@ -215,4 +215,6 @@ nav a:hover, nav a:active {
 .country {
     display: flex;
     justify-content: center;
-  
+    align-items: center;
+    column-gap: 5px;
+}
