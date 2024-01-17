@@ -16,6 +16,11 @@
         display: none;
     }
 
+    .hide {
+        display: flex;
+
+    }
+
     ul.active.show{
         display: flex;
         justify-content: flex-end;
