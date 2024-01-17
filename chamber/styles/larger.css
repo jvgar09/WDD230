@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1024px) {
 
-    header > img {
+    header>img {
         box-shadow: 1px 1px 5px black;
     }
 
@@ -16,19 +16,19 @@
         display: none;
     }
 
-    ul.active.show{
+    ul.active.show {
         display: flex;
         justify-content: flex-end;
-    
+
     }
 
     .content {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        column-gap: 5px;  
+        column-gap: 5px;
     }
 
-    .current-events{
+    .current-events {
         grid-column: 1 / 2;
         box-shadow: 1px 1px 20px black;
     }
@@ -36,24 +36,25 @@
     .weather-card {
         grid-column: 2 / 3;
         box-shadow: 1px 1px 20px black;
-    
+
     }
-    .spotlights{
+
+    .spotlights {
         grid-column: 1 / 3;
         box-shadow: 1px 1px 20px black;
     }
 
 
-    .footer_info{
+    .footer_info {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .footer_info > p{
+
+    .footer_info>p {
         margin-bottom: 0;
         margin-right: 20px;
-        
-    }
 
+    }
 
 }
