@@ -56,14 +56,18 @@ nav a:active {
     background-color: #eee;
     color: #000;
     padding: .25rem 2vw;
-    position: relative;
+
+}
+
+.hide{
+    display: none;
 }
 
 #menu::before {
     content: "≡";
 }
 
-a.active.show {
+ul .active .show {
     display: block;
 }
 
