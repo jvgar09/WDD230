@@ -1,11 +1,3 @@
-// let nLastModif = Date.parse(document.lastModified);
-console.log(document.lastModified)
-
-// document.getElementById('lastModified')
-document.querySelector('#lastModified').innerHTML = document.lastModified;
-
-
-
 // Store the selected elements that we are going to use. 
 const navElement = document.querySelector('#nav');
 const hambutton = document.querySelector('#menu');
@@ -16,3 +8,13 @@ hambutton.addEventListener('click', () => {
 	navElement.classList.toggle('hide');
 	hambutton.classList.toggle('show');
 });
+
+
+// let nLastModif = Date.parse(document.lastModified);
+console.log(document.lastModified)
+
+// document.getElementById('lastModified')
+document.querySelector('#lastModified').innerHTML = document.lastModified;
+
+
+
