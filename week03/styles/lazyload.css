@@ -16,4 +16,13 @@ img {
 
 @keyframes normal {
     0% {
-        opacity:
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+footer{
+    text-align: center;
+}
