@@ -3,36 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lazy Load Demonstration</title>
+    <meta name="author" content="Javier I. Garcia">
+    <link rel="stylesheet" href="styles/lazyload.css">
 </head>
 <body>
     <header>
-        <h1>progressive loading or 'lazy-loading'</h1>
+        <h1>Progressive Loading or 'lazy-loading'</h1>
     </header>
     <main>
-        <h1>Lazy Loading Activity</h1>
-        <div class="content">
-            <section class="Six Pictures">
-                <h2 class="card">Six Images</h2>
-                <ul>
-                    <li><a href="#">Images 01:</a><a href="#"></a></li>
-                    <li><a href="#">Images 02:</a><a href="#"></a></li>
-                    <li><a href="#">Images 03:</a><a href="#"></a></li>
-                    <li><a href="#">Images 04:</a><a href="#"></a></li>
-                    <li><a href="#">Images 05:</a><a href="#"></a></li>
-                    <li><a href="#">Images 06:</a><a href="#"></a></li>
-                </ul>
-            </section>
+        <picture><img src="https://placekitten.com/400/600" alt="Placeholder Kittem Image" loading="lazy" width="400" height="600">
+        </picture>
+        <p>A</p>
+        <picture><img src="https://placekitten.com/400/650" alt="Placeholder Kittem Image" loading="lazy" width="400" height="600">
+        </picture>
+        <p>B</p>
+        <picture><img src="https://placekitten.com/400/700" alt="Placeholder Kittem Image" loading="lazy" width="400" height="600">
+        </picture>
+        <p></p>
+        <picture><img src="https://placekitten.com/400/750" alt="Placeholder Kittem Image" loading="lazy" width="400" height="600">
+        </picture>
+        <p></p>
+        <picture><img src="https://placekitten.com/400/800" alt="Placeholder Kittem Image" loading="lazy" width="400" height="600">
+        </picture>
+        <p></p>
+        <picture><img src="https://placekitten.com/400/850" alt="Placeholder Kittem Image" loading="lazy" width="400" height="600">
+        </picture>
+        <p></p>
+        
     </main>
-    <footer>
-        <div class="footer">
-            <div class="footer_info">
-                <p>©2024</p>
-                <p>Javier I. Garcia</p>
-            </div>
-            <p>Last modification: <span id='lastModified'></span></p>
-        </div>
-    </footer>
+    <footer>Javier I. Garcia | BYU-I ©2024 | Last modification: <span id='lastModified'></footer>
 
     <script src='scripts/getDates.js'></script>
     
