@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Responsive Images: srcset</title>
 </head>
 <body>
-    
+    <main><div class="hero">
+        <picture>
+            <source srcset="images/hero-small.webp" media="(min-width: 500)" >
+            <source srcset="images/hero-medium.webp" media="(min-width: 1000)">
+            <img src="images/hero-large.webp.webp" alt="table setting" width="1500" height="750">
+        </picture>
+    </div></main>
 </body>
 </html>
