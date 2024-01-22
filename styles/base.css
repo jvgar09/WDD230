@@ -109,7 +109,14 @@ nav {
 
 }
 
+.hero picture {
+    width: 100%;
+}
 
+.hero img {
+    width: 100%;
+    height: auto;
+}
 
 nav {
     background-color: #2b2d42; 
