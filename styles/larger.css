@@ -19,8 +19,7 @@
     .hide {
         display: flex;
         justify-content: center;
-        
-        
+          
 
     }
 
@@ -34,6 +33,10 @@
         display: grid;
         grid-template-columns: 2fr 1fr;
         column-gap: 5px;  
+    }
+
+    .hero span {
+        font-size: 2rem;
     }
 
     /* .main section {
