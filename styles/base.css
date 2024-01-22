@@ -252,3 +252,36 @@ nav a:hover, nav a:active {
 
 .information>.p {
     margin-left: 50px;
+    margin-bottom: 5px;
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+}
+
+/*.active {
+    background-color: rgba(0, 0, 0, 0.3)
+    color: yellow;
+}
+*/
+
+.footer {
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    margin: 12px;
+    /* fixed */
+}
+
+.footer_info>p {
+    margin-bottom: 5px;
+}
+
+.country {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
