@@ -117,10 +117,11 @@ main {
 }
 
 .hero {
-    margin: 0 auto;
-    position: relative;
+    margin: 0px auto;
+	position: relative;
+	border: 1px solid rgba(0,0,0,.1);
+	height: 300px;
     
-
 }
 
 .hero picture {
@@ -134,14 +135,14 @@ main {
 
 .hero img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
 }
 
 .herolabel {
 	position: absolute;
-	top: 30px;
-	left: 30px;
+	top: 15px;
+	left: 15px;
 	background: radial-gradient(#fff, #2b2d42);
 	border: 1px solid rgba(0,0,0,.75);
 	padding: 1.5rem;
@@ -156,7 +157,7 @@ main {
 	padding: .25rem;
 	font-weight: 700;
 	font-size: 2rem;
-	font-family:"Great Vibes", serif;
+	font-family: "Roboto mono", monospace;
 }
 
 
