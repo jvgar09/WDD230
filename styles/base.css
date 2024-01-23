@@ -182,7 +182,7 @@ nav {
     background-color: #2b2d42;
     /* rgba(60, 166, 171) */
     margin: 0 auto;
-    max-width: 0 auto;
+    max-width: auto;
 }
 
 nav ul {
