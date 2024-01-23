@@ -18,12 +18,12 @@ document.querySelector('#lastModified').innerHTML = document.lastModified;
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    const modeToggleBtn = document.getElementById('modeToggleBtn');
-    const body = document.body;
+	const modeToggleBtn = document.getElementById('modeToggleBtn');
+	const body = document.body;
 
-    modeToggleBtn.addEventListener('click', function () {
-        body.classList.toggle('dark-mode');
-    });
+	modeToggleBtn.addEventListener('click', function () {
+		body.classList.toggle('dark-mode');
+	});
 });
 
 
@@ -31,15 +31,15 @@ document.addEventListener('DOMContentLoaded', function () {
 //const main = document.querySelector("main");
 
 //modeButton.addEventListener("click", () => {
-	//if (modeButton.textContent.includes("🕶️")) {
-		//main.style.background = "#000";
-		//main.style.color = "#fff";
-		//modeButton.textContent = "";
-	//} //else {
-		//main.style.background = "#eee";
-		//main.style.color = "#000";
-		//modeButton.textContent = "🕶️";
-	//}
+//if (modeButton.textContent.includes("🕶️")) {
+//main.style.background = "#000";
+//main.style.color = "#fff";
+//modeButton.textContent = "";
+//} //else {
+//main.style.background = "#eee";
+//main.style.color = "#000";
+//modeButton.textContent = "🕶️";
+//}
 //});
 
 // 1️⃣ Initialize display element variable

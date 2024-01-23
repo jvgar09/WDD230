@@ -6,56 +6,61 @@
 
 body {
     font-family: "Roboto mono", monospace;
-    
+
 }
 
 #menu {
-	display: block;
-	font-size: 2rem;
-	font-weight:700;
-	text-decoration: none;
-	padding: .5rem .75rem;
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem .75rem;
     cursor: pointer;
-	background-color: #eee;
-	color: #000;
+    background-color: #eee;
+    color: #000;
     padding: .25rem 2vw;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
 #menu::before {
-	content: "≡";
+    content: "≡";
 }
 
 ul .active .show {
-	display: block;
+    display: block;
 }
 
 #menu.show::before {
-	content: "X";
+    content: "X";
 }
 
 
 #mode {
-	position: absolute;
-	top: 1rem;
-	right: 1rem;
-	font-size: 3rem;
-	cursor: pointer;
-	font-size: 2rem;
-    background-color: #fff; /* Light mode background color */
-    color: #333; /* Light mode text color */
-    
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
+    background-color: #fff;
+    /* Light mode background color */
+    color: #333;
+    /* Light mode text color */
+
 }
-#modeToggleBtn{
+
+#modeToggleBtn {
     border: none;
 }
 
 .dark-mode {
-    background-color: #333; /* Dark mode background color */
-    color: #fff; /* Dark mode text color */
+    background-color: #333;
+    /* Dark mode background color */
+    color: #fff;
+    /* Dark mode text color */
 }
 
 
@@ -116,25 +121,25 @@ nav {
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 main {
-	max-width: 100%;
-	margin: 0 auto;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .hero {
     margin: 0px auto;
-	position: relative;
-	border: 1px solid rgba(0,0,0,.1);
-	height: 300px;
-    
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, .1);
+    height: 300px;
+
 }
 
 .hero picture {
-    
+
     width: 100%;
     margin: 10px auto;
-	position: relative;
-	border: 1px solid rgba(0,0,0,.1);
-	height: auto;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, .1);
+    height: auto;
 
 }
 
@@ -145,29 +150,29 @@ main {
 }
 
 .herolabel {
-	position: absolute;
-	top: 15px;
-	left: 15px;
-	background: radial-gradient(#fff, #2b2d42);
-	border: 1px solid rgba(0,0,0,.75);
-	padding: 1.5rem;
-	box-shadow: 0 0 3rem #fff;
-	opacity: 0.75;
-	/* Buenas */
-    
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: radial-gradient(#fff, #2b2d42);
+    border: 1px solid rgba(0, 0, 0, .75);
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+    /* Buenas */
+
 }
 
 .herolabel p {
     margin: 0;
-	padding: .25rem;
-	font-weight: 700;
-	font-size: 2rem;
-	font-family: "Roboto mono", monospace;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: "Roboto mono", monospace;
 }
 
 
 nav {
-    background-color: #2b2d42; 
+    background-color: #2b2d42;
     /* rgba(60, 166, 171) */
     margin: 0 auto;
     max-width: 1550px;
@@ -186,7 +191,8 @@ nav a {
 
 }
 
-nav a:hover, nav a:active {
+nav a:hover,
+nav a:active {
     background-color: #8d99ae;
     /*rgba(36, 67, 53, 0.2)*/
 }
@@ -271,9 +277,9 @@ nav a:hover, nav a:active {
 */
 
 #visits {
-	color: navy;
-	font-weight: bolder;
-	font-size: larger;
+    color: navy;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 
