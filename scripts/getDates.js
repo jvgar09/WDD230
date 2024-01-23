@@ -49,7 +49,7 @@ const visitsDisplay = document.querySelector(".visits");
 let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
 
 // 3️⃣ Determine if this is the first visit or display the number of visits. We wrote this example backwards in order for you to think deeply about the logic.
-if (numVisits !== 0) {
+if (numVisits !== null) {
 	visitsDisplay.textContent = numVisits;
 } else {
 	visitsDisplay.textContent = `This is your first visit. 🥳 Welcome!`;
