@@ -266,6 +266,14 @@ nav a:hover, nav a:active {
 }
 */
 
+iframe {
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
 .footer {
     margin-left: 50px;
     margin-bottom: 50px;
