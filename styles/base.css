@@ -72,6 +72,10 @@ header {
 
 }
 
+header img {
+    border-radius: 100px;
+}
+
 header>main {
     max-width: 767px;
     margin: 0 auto;
@@ -272,6 +276,8 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     width: 95%;
+    height: auto;
+    border-radius: 4px;
 }
 
 .footer {
