@@ -291,7 +291,7 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     width: 95%;
-    height: 0 auto;
+    height: auto;
     border-radius: 4px;
 }
 
