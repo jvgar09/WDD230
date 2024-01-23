@@ -35,8 +35,13 @@
         column-gap: 5px;  
     }
 
-    .herolable {
+    .herolabel{
+        padding: 1.5rem;
+    }
+    .herolabel p {
         font-size: 2rem;
+        /* font-size:  1rem; */
+
     }
 
     /* .main section {

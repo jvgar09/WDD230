@@ -160,7 +160,7 @@ main {
     left: 15px;
     background: radial-gradient(#fff, #2b2d42);
     border: 1px solid rgba(0, 0, 0, .75);
-    padding: 1.5rem;
+    padding: 1rem;
     box-shadow: 0 0 3rem #fff;
     opacity: 0.75;
     /* Buenas */
@@ -171,7 +171,7 @@ main {
     margin: 0;
     padding: .25rem;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: "Roboto mono", monospace;
 }
 
