@@ -120,10 +120,12 @@ nav {
 
 }
 
+/*
 main {
     max-width: 100%;
     margin: 0 auto;
 }
+*/
 
 
 
@@ -135,8 +137,8 @@ main {
 
 }
 
+/*
 .hero picture {
-
     width: 100%;
     margin: 10px auto;
     position: relative;
@@ -144,10 +146,11 @@ main {
     height: auto;
 
 }
+*/
 
 .hero img {
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
 }
 
@@ -168,7 +171,7 @@ main {
     margin: 0;
     padding: .25rem;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: "Roboto mono", monospace;
 }
 
