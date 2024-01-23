@@ -270,6 +270,13 @@ nav a:hover, nav a:active {
 }
 */
 
+#visits {
+	color: navy;
+	font-weight: bolder;
+	font-size: larger;
+}
+
+
 iframe {
     margin-bottom: 10px;
     display: block;
