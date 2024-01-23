@@ -286,12 +286,4 @@ iframe {
 }
 
 .footer_info>p {
-    margin-bottom: 5px;
-}
-
-.country {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 5px;
-}
+    margin-bot
