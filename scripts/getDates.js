@@ -17,7 +17,6 @@ document.querySelector('#lastModified').innerHTML = document.lastModified;
 
 
 
-
 document.addEventListener('DOMContentLoaded', function () {
     const modeToggleBtn = document.getElementById('modeToggleBtn');
     const body = document.body;
