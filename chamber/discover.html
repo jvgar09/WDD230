@@ -25,25 +25,21 @@
 
 <body>
     <header>
-        <img src="images/splogo.jpg" alt="Sienna logo" width="100" height="100">
+        <img src="images/splogo.jpg" alt="Sienna logo">
         <h1>Sienna Plantation Chamber of Commeers</h1>
         <span>
             <button>Benefits</button>
             <button>Join Us</button>
         </span>
 
-        <div id="mode">
-            <button id="modeToggleBtn"><img src="images/mode.jpg" alt="mode pic" width="30" height="30"></button>
-        </div>
-
     </header>
-    <a id="menu" href="#"></a>
-
-    <nav id="nav" class="hide">
-        <ul>
-            <li class="active"><a href="#">Home</a></li>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li class="active">
+            <a href="index.html">Home</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Encents</a></li>
+            <li><a href="#">Envents</a></li>
             <li><a href="#">Engagements</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="#">News</a></li>
@@ -51,24 +47,83 @@
         <button>Join the Chamber</button>
     </nav>
     <main>
-
+        <div class="parent1">
+            <section class="card1">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/discover-small.wedp">
+                    <source media="(max-width: 400px)" srcset="images/discover-medium.wedp">
+                    <img src="images/discover-larde.wedp" alt="discover sienna plantation chamber" loading="lazy" width="500" height="250">
+                </picture>
+                <h2>Discover more on Sienna Plantation Chamber Rrgion</h2>
+            </section>
+            <section class="card2">
+                <h2>The Premier Resource for and About the Sienna Plantation Business Community</h2>
+                <p>The Sienna Plantation Chamber of Commerce (SPCC) is the leading regional advocate for the economic and civic interests of the Sienna Plantation business community.</p>
+                <span>
+                    <button class="event">Sienna Region</button>
+                </span>
+            </section>    
+        </div>
+        <div class="discover">
+            <div class="discover-sidebar">
+            <section class="left-sidebar-1">
+                <h2>Connect Now</h2>
+                <p>As our valued member, you can connect with other members by searching our Info Hub Membership Directory.</p>
+                <button>Connect</button>
+            </section>
+            <section class="left-sidebar-2">
+                <h2>Regional Profile</h2>
+                <picture><img src="images/" alt="key industries" width="596" height="263" loading="lazy"></picture>
+                <p>The Sienna Plantation Chamber of Commerce serves as a catalyst for business opportunity and growth</p>
+            </section>
+            <section class="left-sidebar-3">
+                <h2>Business Resource</h2>
+                <p>The Sienna Plantation Chamber of Commerce acts as an effective business resource</p>
+                <button>Connect</button>
+            </section>
+            <section class="visit-card">
+                <h2>Website Visit Count!!</h2>
+                <p id="visit-message">Back so soon! Awsome!</p>
+            </section>
+        </div>
+        <div class="discover-content">
+            <h2>Key industries</h2>
+            <div class="content">
+                <picture><img src="images/" alt="discover" width="800" height="450" loading="lazy"></picture>
+            </div>
+            <p>Finacial Services</p>
+        </div>
+        <div class="content">
+            <picture><img src="images/" alt="discover" width="800" height="450" loading="lazy"></picture>
+            <p>...</p>
+        </div>
+        <div class="content">
+            <picture><img src="images/" alt="discover" width="800" height="450" loading="lazy"></picture>
+            <p>...</p>
+        </div>
+        <div class="content">
+            <picture><img src="images/" alt="discover" width="800" height="450" loading="lazy"></picture>
+            <p>...</p>
+        </div>
+        <div class="content">
+            <picture><img src="images/" alt="discover" width="800" height="450" loading="lazy"></picture>
+            <p>...</p>
+        </div>
+        <div class="content">
+            <picture><img src="images/" alt="discover" width="800" height="450" loading="lazy"></picture>
+            <p>...</p>
+        </div>
+        </div>
+    </div>
+    <div class="griiid"></div>
     </main>
-
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28742.285133627072!2d-95.4160823101287!3d29.757251642914166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c0a826da32fb%3A0x105a403e8ca4707e!2sBuffalo%20Bayou%20Park!5e0!3m2!1sen!2sus!4v1705970853887!5m2!1sen!2sus"
-        width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     <footer>
         <div class="footer">
-            <div class="footer_info">
-                <p>©2024</p>
-                <p>Javier I. Garcia</p>
-                <div class="country">
-                    <p>Texas</p>
-                    <img src="images/tx_flag.jpg" alt="" width="40" height="40">
-                </div>
-            </div>
+            <p>©  <span id="year">2024</span> "Sienna Plantation Chamber"</p>
+            <p>Javier I. Garcia</p>
+            <p>Phone: (832) Sienna1</p>
+            <p>Email: info@siennachamber.com</p>
             <p>Last modification: <span id='lastModified'></span></p>
         </div>
 
