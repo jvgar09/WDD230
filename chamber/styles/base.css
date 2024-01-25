@@ -315,7 +315,6 @@ footer {
         display: none;
     }
 
-    /* HANBURGER MENU FOR SMALLER SCREEN LESS THAN 899PX */
     #menu {
         font-size: 2.5rem;
         background: none;
@@ -405,7 +404,7 @@ footer {
     }
 
 
-}
+
 
 
 
@@ -542,4 +541,5 @@ footer {
     margin-bottom: 8px;
     list-style-type: none;
     text-align: center;
+}
 }
