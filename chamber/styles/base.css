@@ -290,13 +290,13 @@ p {
     font-size: 17px;
     cursor: pointer;
     padding: 10px 20px 30px;
-    /* Adjusting padding as needed */
+
 }
 
 /* styling the footer  */
 footer {
     margin-top: 1.2rem;
-    padding: 10px 40px 20px;
+    padding: 20px 40px 20px;
     text-align: center;
     border-top: 2px solid var(--accent-color);
     border-bottom: 2px solid var(--accent-color);
@@ -307,7 +307,7 @@ footer {
 
 
 
-/* for smaller screen sizes below 899px */
+/* for smaller screen */
 @media screen and (max-width: 898px) {
 
     /* Put header button in nav bar */
