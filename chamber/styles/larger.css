@@ -12,6 +12,22 @@
         flex: 1 1 100%;
     }
 
+    nav{
+        background-color: var(--nav-background-color-large);
+        padding: 1px;
+    }
+
+    nav a:hover{
+        background-color: var(--nav-link-hover-background);
+        color: var(--header-color);
+        border-radius: 5px;
+    }
+    
+    nav a{
+        text-align: center;
+    }
+
+
     #menu {
         display: none;
     }
@@ -20,64 +36,50 @@
         display: flex;
         justify-content: center;
         
-        
-
     }
 
-    ul.active.show {
-        display: flex;
-        justify-content: flex-end;
-
+    nav button{
+        display: none;
     }
 
-    .content {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        column-gap: 5px;
-    }
-    #hero-box{
-        position:relative;
-    }
-    #hero-btn{
+    main .card1 img{
         display: block;
-        position:absolute;
-        left: 10%;
-        top: 10%;
-        /* text-align:center; */
-        /* transform: translate(-50%, -50%); */
-    }
-    .contents{
-        display: flex;
-        column-gap: 20px;
+        height: auto;
+        width: 100%;
     }
 
-    .current-events {
-        grid-column: 1 / 2;
-        box-shadow: 1px 1px 20px black;
+    .parent1 h2{
+        font-family: var(--heading-font);
+        font-size: 49px;
+        font-weight: bold;
     }
 
-    .weather-card {
-        grid-column: 2 / 3;
-        box-shadow: 1px 1px 20px black;
 
+    .card2 p{
+        font-size: 19px;
     }
 
-    .spotlights {
+
+    .parent1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .parent2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+    }
+
+    .parent2 .weather{
         grid-column: 1 / 3;
-        box-shadow: 1px 1px 20px black;
     }
 
-
-    .footer_info {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .parent3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
-    .footer_info>p {
-        margin-bottom: 0;
-        margin-right: 20px;
+      /* styling for discover page */
 
-    }
-
-}
+      .dicov
