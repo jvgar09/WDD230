@@ -128,7 +128,7 @@
 
     .discover-sidebar button{
         height: 35px;
-        background-color: var(--nav-background-color-large);
+        background-color: #e1c65a;
         border: 2px solid var(--accent-color);
         font-weight: bolder;
         font-size: 17px;

@@ -191,7 +191,7 @@ main .card2 {
     /* border: 1px solid var(--nav-link-color); */
     margin-top: 1rem;
     padding: 10px 40px 20px;
-    background-color: var(--nav-background-color-large);
+    background-color: #edf2f4;
     margin: 0;
 }
 
@@ -213,7 +213,7 @@ p {
 
 .parent1 .event {
     height: 35px;
-    background-color: var(--nav-background-color-large);
+    background-color: #e1c65a;
     border: 2px solid var(--accent-color);
     font-weight: bolder;
     font-size: 17px;
@@ -288,7 +288,7 @@ p {
 
 .discover-sidebar button {
     height: 35px;
-    background-color: var(--nav-background-color-large);
+    background-color: #e1c65a ;
     border: 2px solid var(--accent-color);
     font-weight: bolder;
     font-size: 17px;
