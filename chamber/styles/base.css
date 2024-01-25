@@ -88,6 +88,7 @@ header h1 {
 
 #menu::before {
     content: "≡";
+    color: black;
 }
 
 ul .active .show {
