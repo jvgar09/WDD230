@@ -195,15 +195,6 @@ main .card2 {
     margin: 0;
 }
 
-main .advert1 {
-    /* border: 1px solid var(--nav-link-color);  */
-    margin-top: 1.2rem;
-  }
-
-  main .advert2 {
-    /* border: 1px solid var(--nav-link-color);  */
-    margin-top: 1.2rem;
-  }
 
 /* STYLING THE PARENT1 CLASS */
 .parent1 p {
