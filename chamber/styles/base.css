@@ -17,7 +17,7 @@
     --nav-hover-background-color: #ddd;
     --nav-background-color-large: #2b2d42;
     --nav-link-hover-background: #fbfbfb;
-  }
+}
 
 
 
@@ -403,7 +403,7 @@ footer {
 
 @media screen and (min-width: 500px) {
 
-    .griiid {
+    .gold {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
