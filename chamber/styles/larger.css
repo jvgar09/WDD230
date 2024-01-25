@@ -89,9 +89,9 @@
 
     /* styling for discover page */
 
-    .dicover {
+    .discover {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-column-gap: 30px;
         margin-top: 50px;
     }
@@ -101,7 +101,7 @@
     }
 
     .discover-content {
-        grid-column: 2 / 4;
+        grid-column: 2 / 3;
     }
 
     .left-sidebar-2 img {
@@ -178,8 +178,8 @@
     }
 
     .content {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
+        /* display: grid; */
+        /* grid-template-columns: 2fr 1fr; */
         column-gap: 5px;
     }
 
