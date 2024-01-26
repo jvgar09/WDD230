@@ -47,8 +47,8 @@ document.addEventListener('DOMContentLoaded', function () {
     localStorage.setItem('lastVisit', new Date().getTime());
 });
 
-/*function showMessage(message) {
+function showMessage(message) {
     // Display the message in the sidebar
     document.getElementById('message').textContent = message;
 }
-*/
+
