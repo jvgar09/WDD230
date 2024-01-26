@@ -34,31 +34,31 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Applicat Information</legend>
-                <lable>First Name* <input type="text" name="fname" required></lable>
-                <lable>Last Name* <input type="text" name="lname" required></lable>
-                <lable>Phone <input type="tel" name="phone" placeholder="123456789"></lable>
-                <lable>Email* <input type="email" name="email" placeholder="someone@hotmail.com" required></lable>
-                <lable>Website <input type="url" name="url" placeholder="http://"></lable>
+                <lable class="top">First Name* <input type="text" name="fname" required></lable>
+                <lable class="top">Last Name* <input type="text" name="lname" required></lable>
+                <lable class="top">Phone <input type="tel" name="phone" placeholder="123456789"></lable>
+                <lable class="top">Email* <input type="email" name="email" placeholder="someone@hotmail.com" required></lable>
+                <lable class="top">Website <input type="url" name="url" placeholder="http://"></lable>
             </fieldset>
 
             <fieldset>
                 <legend>Course Information</legend>
                 <div>Audience</div>
-                <lable><input type="radio" name="audience" value="beginner"> Beginner</lable>
-                <lable><input type="radio" name="audience" value="beginner"> Intermediate</lable>
-                <lable><input type="radio" name="audience" value="beginner"> Advanced</lable>
+                <lable class="sbs"><input type="radio" name="audience" value="beginner"> Beginner</lable>
+                <lable class="sbs"><input type="radio" name="audience" value="beginner"> Intermediate</lable>
+                <lable class="sbs"><input type="radio" name="audience" value="beginner"> Advanced</lable>
 
                 <div>ASoftware Needed</div>
-                <lable><input type="checkbox" name="editing" value="yes"> Photo Editing</lable>
-                <lable><input type="checkbox" name="code" value="yes"> Coding</lable>
-                <lable><input type="checkbox" name="process" value="yes"> Preprocessor</lable>
-                <lable><input type="checkbox" name="client" value="yes"> FTP Client</lable>
+                <lable class="sbs"><input type="checkbox" name="editing" value="yes"> Photo Editing</lable>
+                <lable class="sbs"><input type="checkbox" name="code" value="yes"> Coding</lable>
+                <lable class="sbs"><input type="checkbox" name="process" value="yes"> Preprocessor</lable>
+                <lable class="sbs"><input type="checkbox" name="client" value="yes"> FTP Client</lable>
             </fieldset>
 
             <fieldset>
                 <legend>Funding</legend>
-                <label>Antcipated Completon Date <input type="date" name="completeDate"></label>
-                <label>Course Subject
+                <label class="top" >Antcipated Completon Date <input type="date" name="completeDate"></label>
+                <label class="top">Course Subject
                     <select name="subject">
                             <option value="">Please Select</option>
                         <option value="software">softwareDevelopment</option>
@@ -71,17 +71,13 @@
                     </select>
                 </label>
 
-                <label>How many Authors <input type="number" name="authors"></label>
+                <label class="top">How many Authors <input type="number" name="authors"></label>
 
             </fieldset>
 
-            <input type="submit" value = "Propose My Course">
+            <input type="submit" value = "Propose My Course" class="submitBtn">
 
         </form>
-
-
-
-
     </main>
 
 
