@@ -14,7 +14,7 @@ body {
 }
 
 table {
-	margin: 10px auto;
+	margin: 35px auto;
 	border: thin solid var(--border);
 	box-shadow: 0 0 10px var(--shadow);
 	border-collapse: collapse;
