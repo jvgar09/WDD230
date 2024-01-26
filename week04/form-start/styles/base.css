@@ -110,6 +110,14 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green sold 6px;  
+}
+
 
 /*----------- FOOTER --------------*/
 footer {
