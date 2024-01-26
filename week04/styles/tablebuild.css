@@ -18,6 +18,8 @@ table {
 	border: thin solid var(--border);
 	box-shadow: 0 0 10px var(--shadow);
 	border-collapse: collapse;
+    
+   
 }
 
 caption {
@@ -26,6 +28,7 @@ caption {
 	color: var(--back);
 	font-size: .85rem;
    
+   
     
 }
 
@@ -33,6 +36,7 @@ tr:first-child th, .highlight {
 	background-color: var(--back);
 	color: var(--forelight);
     left: 220px;
+
     
 }
 
@@ -57,4 +61,6 @@ td {
 
 tbody tr:nth-child(odd) {
 	background-color: var(--zebra);
+    justify-content: flex-start;
+   
 }
