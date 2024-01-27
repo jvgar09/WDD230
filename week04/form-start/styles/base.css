@@ -62,7 +62,7 @@ main {
 
 form fieldset {
     margin: 2rem 0;
-    border: 1px soild #445ba9;
+    border: 1px solid #445ba9;
     border-radius: 10px;
     padding: .5rem 2%;
     
@@ -116,7 +116,7 @@ form label.top input:required {
 }
 
 form label.top input:required:valid {
-    border-left: green sold 6px;  
+    border-left: green solid 6px;  
 }
 
 
