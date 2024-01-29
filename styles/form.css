@@ -2,6 +2,7 @@
     --color: rgb(47, 51, 169);
     --border: hsla(0, 79%, 29%, 0.8);
     --border-bottom: hsla(0, 35%, 54%, 0.3);
+    --label: rgba(14, 50, 69, 0.4);
 
 }
 
@@ -19,7 +20,7 @@ main {
 h1 {
     font-size: 1.75rem;
     color: black;
-    border-bottom: 1px solid #ce8080;
+    border-bottom: 1px solid #190606;
 }
 
 label {
@@ -53,6 +54,6 @@ form legend {
 form label {
     display: block;
     padding-top: 1rem;
-    color: #090807;
+    color: var(--label);
     font-size: .8rem;
 }
