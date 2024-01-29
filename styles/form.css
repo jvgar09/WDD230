@@ -2,7 +2,7 @@
     --color: rgb(47, 51, 169);
     --border: hsla(0, 79%, 29%, 0.8);
     --border-bottom: hsla(0, 35%, 54%, 0.3);
-    --label: rgba(22, 18, 51, 0.4);
+    --label: rgba(3, 1, 12, 0.4);
 
 }
 
@@ -54,6 +54,6 @@ form legend {
 form label {
     display: block;
     padding-top: 1rem;
-    color: var(--label);
+    color: black;
     font-size: .8rem;
 }
