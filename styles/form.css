@@ -1,0 +1,9 @@
+:root {
+    --back: rgb(12, 17, 14);
+    --back2: hsla(150, 10%, 12%, 0.5);
+    --foredark: hsla(0, 0%, 10%, 1);
+    --forelight: hsla(0, 0%, 100%, 1);
+    --border: hsla(0, 0%, 20%, .8);
+    --borderlight: hsla(0, 0%, 33%, .3);
+    --shadow: hsl(0, 0%, 50%);
+    --zebra: hsl(0,
