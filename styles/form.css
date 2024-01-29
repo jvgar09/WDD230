@@ -2,13 +2,13 @@
     --color: rgb(47, 51, 169);
     --border: hsla(0, 79%, 29%, 0.8);
     --border-bottom: hsla(0, 35%, 54%, 0.3);
-  
+
 }
 
 
 body {
-	font-family: Roboto, Arial, sans-serif;
-	margin: 1rem;
+    font-family: Roboto, Arial, sans-serif;
+    margin: 1rem;
 }
 
 main {
@@ -17,19 +17,21 @@ main {
 }
 
 h1 {
-	font-size: 1.75rem;
-	color: black;
-	border-bottom: 1px solid #ce8080;
+    font-size: 1.75rem;
+    color: black;
+    border-bottom: 1px solid #ce8080;
 }
 
 label {
-	display: block;
-	font-weight: 700;
+    display: block;
+    font-weight: 700;
 }
 
-input[type=text], input[type=range], input[type=radio] {
-	margin: 1rem;
-	padding: 0.5em;
+input[type=text],
+input[type=range],
+input[type=radio] {
+    margin: 1rem;
+    padding: 0.5em;
 }
 
 
@@ -38,7 +40,7 @@ form fieldset {
     border: 1px solid var(--border);
     border-radius: 10px;
     padding: .5rem 2%;
-    
+
 }
 
 
@@ -54,5 +56,3 @@ form label {
     color: #090807;
     font-size: .8rem;
 }
-
-
