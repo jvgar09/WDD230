@@ -44,12 +44,45 @@
             <li><a href="chamber/index.html">Chamber</a></li>
             <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
             <li><a href="chamber/discover.html">Discover</a></li>
-            <li><a href="#">News</a></li>
             <li class="active"><a href="form.html">Form</a></li>
         </ul>
     </nav>
     <main>
-     
+        <h1>Form Submission</h1>
+
+        <!-- Form -->
+        <form method="get" action="record.html" >
+            <fieldset>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            </fieldset>
+
+            <fieldset>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required pattern="[a-zA-Z0-9]{8,}" title="Password must be at least 8 characters and alphanumeric">
+            </fieldset>
+
+            <fieldset>
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required oninput="checkPasswordMatch()">
+            </fieldset>
+
+            <fieldset>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address">
+            </fieldset>
+
+            <fieldset>
+            <label for="pageRating">Page Rating:</label>
+            <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1" oninput="updateRatingValue()">
+            <span id="ratingValue">1</span>
+            </fieldset>
+
+            <fieldset>
+            <button type="submit">Submit</button>
+            </fieldset>
+
+        </form>
 
     </main>
 
