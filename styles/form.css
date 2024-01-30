@@ -55,4 +55,6 @@ form legend {
 form label {
     display: block;
     padding-top: 1rem;
-    color: b
+    color: black;
+    font-size: .8rem;
+}
