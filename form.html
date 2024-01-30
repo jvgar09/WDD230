@@ -52,34 +52,34 @@
         <form method="get" action="record.html">
             <fieldset>
                 <legend>Username</legend>
-                <label class="username">Username* :</label>
+                <label for="username">Username* :</label>
                 <input type="text" id="username" name="username" required>
             </fieldset>
 
             <fieldset>
                 <legend>Password</legend>
-                <label class="password">Password* :</label>
+                <label for="password">Password* :</label>
                 <input type="password" id="password" name="password" required pattern="[a-zA-Z0-9]{8,}"
                     title="Password must be at least 8 characters and alphanumeric">
             </fieldset>
 
             <fieldset>
                 <legend>Confirm Password</legend>
-                <label class="confirmPassword">Confirm Password :</label>
+                <label for="confirmPassword">Confirm Password :</label>
                 <input type="password" id="confirmPassword" name="confirmPassword" required
                     oninput="checkPasswordMatch()">
             </fieldset>
 
             <fieldset>
                 <legend>Email </legend>
-                <label class="email">Email :</label>
+                <label for="email">Email :</label>
                 <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
                     title="Please enter a valid email address">
             </fieldset>
 
             <fieldset>
                 <legend>Rating</legend>
-                <label class="pageRating">Page Rating :</label>
+                <label for="pageRating">Page Rating :</label>
                 <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1"
                     oninput="updateRatingValue()">
                 <span id="ratingValue">1</span>
