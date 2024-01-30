@@ -15,6 +15,7 @@ body {
 main {
     padding: 0 2%;
     min-height: 20rem;
+    /*margin-bottom: 2rem;*/
 }
 
 h1 {
