@@ -321,3 +321,12 @@ iframe {
     align-items: center;
     column-gap: 5px;
 }
+main p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
