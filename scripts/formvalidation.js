@@ -1,3 +1,4 @@
+document.querySelector('#confirmPassword').addEventListener('focusout', checkPasswordMatch)
 
 
 function checkPasswordMatch() {
