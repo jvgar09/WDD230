@@ -52,11 +52,12 @@
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>Applicat Information</legend>
-                <label class="top">First Name* <input type="text" name="fname" required></label>
-                <label class="top">Last Name* <input type="text" name="lname" required></label>               
-                <label class="top">Email* <input type="email" name="email" placeholder="someone@hotmail.com" required></label>
-                <label class="top">Phone <input type="tel" name="phone" placeholder="123456789"></label>
-                <label class="top">Business/Organization's Name* <input type="text" name="description" placeholder="Enron Inc"></label>
+                <label class="info">First Name* <input type="text" name="fname" id="fname" required></label>
+                <label class="info">Last Name* <input type="text" name="lname" id="lname"required></label>               
+                <label class="info">Email* <input type="email" name="email" id="email" placeholder="someone@hotmail.com" required></label>
+                <label class="info">Phone <input type="tel" name="phone" id="phone"placeholder="123456789"></label>
+                <label class="info">Business/Organization's Name* <input type="text" name="description" id="description" placeholder="Enron Inc"></label>
+                <label class="info">Organization description <input type="text" name="orgDescription" id="orgDescription"></label>
 
             </fieldset>
         
@@ -64,7 +65,7 @@
                 <legend>Membership Levels & Dues</legend>
                 <input type="hidden" name="timestamp" id="timestamp">
                 <!-- <label class="top" >Time and Date Submmited <input type="date" name="completeDate"></label> -->
-                <label class="top">Levels
+                <label class="info">Levels
                     <select name="levels">
                             <option value="">Please Select &#9662;</option>
                         <option value="mp">NP Membership</option>
@@ -96,20 +97,4 @@
                 <p>Javier I. Garcia</p>
                 <div class="country">
                     <p>Texas</p>
-                    <img src="images/tx_flag.jpg" alt="" width="40" height="40">
-                </div>
-            </div>
-            <p>Last modification: <span id='lastModified'></span></p>
-        </div>
-
-    </footer>
-
-
-
-    <script src="scripts/dateTime.js"></script>
-   
-
-</body>
-
-
-</html>
+                    <img src="images/tx_flag.jpg" alt="" widt
