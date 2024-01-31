@@ -62,9 +62,10 @@
         
             <fieldset>
                 <legend>Membership Dues</legend>
-                <label class="top" >Time and Date Submmited <input type="date" name="completeDate"></label>
+                <input type="hidden" name="timestamp" id="timestamp">
+                <!-- <label class="top" >Time and Date Submmited <input type="date" name="completeDate"></label> -->
                 <label class="top">Levels
-                    <select name="subject">
+                    <select name="levels">
                             <option value="">Please Select &#9662;</option>
                         <option value="mp">NP Membership</option>
                         <option value="bronze">Bronze Membership</option>
@@ -103,8 +104,8 @@
 
     </footer>
 
-    <script src="scripts/getDates.js"></script>
-    <script src="scripts/formvalidation.js"></script>
+    <script src="scripts/date.js"></script>
+   
 
 </body>
 
