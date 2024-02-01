@@ -13,6 +13,11 @@
     --nav-hover-background-color: #ddd;
     --nav-background-color-large: #2b2d42;
     --nav-link-hover-background: #fbfbfb;
+
+    --color: rgb(47, 51, 169);
+    --border: hsla(0, 79%, 29%, 0.8);
+    --border-bottom: hsla(0, 35%, 54%, 0.3);
+    --label: rgba(3, 1, 12, 0.4);
 }
 
 
@@ -551,4 +556,75 @@ main p {
 
 footer {
     text-align: center;
+}
+
+iframe {
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* styling the join form  */
+
+main {
+    padding: 0 30%;
+    min-height: 20rem;
+    /*margin-bottom: 2rem;*/
+}
+
+h1 {
+    font-size: 1.75rem;
+    color: black;
+    border-bottom: 1px solid #190606;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+}
+
+input[type=text],
+input[type=range],
+input[type=radio] {
+    margin: .5rem;
+    padding: .25em;
+}
+
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: .5rem 2%;
+
+}
+
+
+form legend {
+    color: var(--color);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: var(--color);
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    
 }
