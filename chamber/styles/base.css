@@ -652,7 +652,7 @@ table {
     padding: 30px;
     
       
-  }
+}
 
 
 caption {
@@ -661,15 +661,15 @@ caption {
     text-align: left;
     color: var(--label);
     font-size: .1rem;
-  }
+}
 
-  tr {
+tr {
     width: 100%;
     text-align: right;
     margin: 2rem 0;
     border: 1px solid #000;
-    
-  }
+      
+}
 
 
 td {
@@ -678,6 +678,7 @@ td {
     margin: 0 auto;
     width: 95%;
     border: 1px solid #000;
+    text-align: center;
     
 }
 th {
@@ -687,5 +688,5 @@ th {
     font-size: 100%;
     font-weight: bold;
     border: 1px solid #000;
-    
+    text-align: center;
 }
