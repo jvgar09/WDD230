@@ -649,8 +649,9 @@ table {
     margin: 3rem 0;
     border: none;
     border-radius: 10px;
-    padding: .3rem 2% top;
-
+    padding: 0 2rem;
+    max-width: auto;
+    
   }
 
   caption {
@@ -661,10 +662,24 @@ table {
     font-size: .1rem;
   }
 
+  tr {
+    width: 100%;
+    text-align: right;
+    
+  }
+
+
 
 td {
     text-align: left;
     font-size: smaller;
-    margin: 2rem;
+    margin: 0 auto;
+    width: 95%;
+    
+}
+th {
+    background-color: lightgray;
+    width:  auto;
+    align-items: right;
     
 }
