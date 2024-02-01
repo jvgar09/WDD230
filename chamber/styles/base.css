@@ -647,15 +647,13 @@ form input.submitBtn {
 table {
     display: block;
     margin: 3rem 0;
-    border: none;
+    border: 1px solid #000;
     border-radius: 10px;
     padding: 30px;
+    
       
   }
 
-.table tr:hover{
-    background-color: #ffffff;
-}
 
 caption {
     padding: 10px;
@@ -669,6 +667,7 @@ caption {
     width: 100%;
     text-align: right;
     margin: 2rem 0;
+    border: 1px solid #000;
     
   }
 
@@ -678,6 +677,7 @@ td {
     font-size: smaller;
     margin: 0 auto;
     width: 95%;
+    border: 1px solid #000;
     
 }
 th {
@@ -685,5 +685,7 @@ th {
     width:  auto;
     align-items: center;
     font-size: 100%;
+    font-weight: bold;
+    border: 1px solid #000;
     
 }
