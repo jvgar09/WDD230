@@ -28,10 +28,18 @@ function validateEmail() {
 
     var byuiEmailPattern = /^[a-zA-Z0-9._%+-]+@byui\.edu$/;
 
-    if (byuiEmailPattern.test(emailInput.value)) {
+    if (byuiEmailPattern.value !== emailInput.value) {
         emailError.textContent = ''; 
-        alert('Email is valid!'); 
-    } else {
-        emailError.textContent = 'Please enter a valid BYUI email address.';
+        alert("Passwords do not match. Please try again.");
+        email.focus();
+        
     }
+    
+    
+//    if (byuiEmailPattern.test(emailInput.value)) {
+//       emailError.textContent = ''; 
+//        alert('Email is valid!'); 
+//    } else {
+//        emailError.textContent = 'Please enter a valid BYUI email address.';
+//    }
 }
