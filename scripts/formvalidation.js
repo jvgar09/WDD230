@@ -30,7 +30,7 @@ function validateEmail() {
 
     if (byuiEmailPattern.value !== emailInput.value) {
         emailError.textContent = ''; 
-        alert("Passwords do not match. Please try again.");
+        alert('Please enter a valid BYUI email address.');
         email.focus();
         
     }
