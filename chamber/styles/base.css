@@ -576,10 +576,21 @@ main {
     /*margin-bottom: 2rem;*/
 }
 
-h1 {
+.instructions h1 {
     font-size: 1.75rem;
     color: black;
     border-bottom: 1px solid #190606;
+}
+
+.instructions h2 {
+    border-bottom: 1px solid #190606;
+}
+
+.instructions p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: left; 
+
 }
 
 label {
@@ -622,7 +633,7 @@ form input.submitBtn {
     background-color: #2b2d42;
     color: white;
     border-radius: 1rem;
-    padding: .75rem 1.5rem;
+    padding: .55rem 1.5rem;
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
@@ -631,3 +642,29 @@ form input.submitBtn {
 
 /* styling the thankyou page  */
 
+/* styling table  */
+
+table {
+    display: block;
+    margin: 3rem 0;
+    border: none;
+    border-radius: 10px;
+    padding: .3rem 2% top;
+
+  }
+
+  caption {
+    padding: 10px;
+    caption-side: top;
+    text-align: left;
+    color: var(--label);
+    font-size: .1rem;
+  }
+
+
+td {
+    text-align: left;
+    font-size: smaller;
+    margin: 2rem;
+    
+}
