@@ -605,7 +605,7 @@ form fieldset {
 
 
 form legend {
-    color: var(--color);
+    color: #2b2d42;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -619,7 +619,7 @@ form label {
 
 form input.submitBtn {
     border: none;
-    background-color: var(--color);
+    background-color: #2b2d42;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
