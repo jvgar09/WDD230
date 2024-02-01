@@ -30,7 +30,7 @@ function validateEmail() {
 
     if (byuiEmailPattern.value !== emailInput.value) {
         emailError.textContent = ''; 
-        //email.focus();
+        email.focus();
     } else {
         emailError.textContent = 'Please enter a valid BYUI email address.';
      
