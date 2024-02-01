@@ -17,3 +17,21 @@ function updateRatingValue() {
     var pageRating = document.getElementById("pageRating");
     ratingValue.innerHTML = pageRating.value;
 }
+
+
+document.querySelector('#email').addEventListener('focusout', validateEmail)
+
+
+function validateEmail() {
+    var emailInput = document.getElementById('email');
+    var emailError = document.getElementById('emailError');
+
+    var byuiEmailPattern = /^[a-zA-Z0-9._%+-]+@byui\.edu$/;
+
+    if (byuiEmailPattern.test(emailInput.value)) {
+        emailError.textContent = '';
+        alert('Email is valid!');
+    } else {
+        emailError.textContent = 'Please enter a valid BYUI email address.';
+    }
+}

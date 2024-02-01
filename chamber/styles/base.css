@@ -542,3 +542,13 @@ footer {
     list-style-type: none;
     text-align: center;
 }
+
+main p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
