@@ -625,7 +625,7 @@ form label {
     display: block;
     padding-top: 1rem;
     color: black;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 form input.submitBtn {
@@ -649,7 +649,7 @@ table {
     margin: 3rem 0;
     border: none;
     border-radius: 10px;
-    padding: 0 2rem;
+    padding: 30px;
     
     
   }
@@ -665,6 +665,7 @@ caption {
   tr {
     width: 100%;
     text-align: right;
+    margin: 2rem 0;
     
   }
 
