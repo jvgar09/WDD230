@@ -9,3 +9,4 @@ function setTimestamp() {
     // Set the timestamp value to the HTML element with id "timestamp"
     document.getElementById("timestamp").value = formattedTimestamp;
 }
+

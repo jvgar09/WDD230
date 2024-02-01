@@ -14,4 +14,6 @@ function checkPasswordMatch() {
 
 function updateRatingValue() {
     var ratingValue = document.getElementById("ratingValue");
-    var pageRat
+    var pageRating = document.getElementById("pageRating");
+    ratingValue.innerHTML = pageRating.value;
+}
