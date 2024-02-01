@@ -650,9 +650,12 @@ table {
     border: none;
     border-radius: 10px;
     padding: 30px;
-    
-    
+      
   }
+
+.table tr:hover{
+    background-color: #ffffff;
+}
 
 caption {
     padding: 10px;
@@ -668,7 +671,6 @@ caption {
     margin: 2rem 0;
     
   }
-
 
 
 td {
