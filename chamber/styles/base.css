@@ -681,4 +681,12 @@ td {
     text-align: center;
     
 }
-th
+th {
+    background-color: lightgray;
+    width:  auto;
+    align-items: center;
+    font-size: 100%;
+    font-weight: bold;
+    border: 1px solid #000;
+    text-align: center;
+}
