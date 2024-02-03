@@ -1,8 +1,8 @@
 {
     "familyName" : "Garcia Family",
     "movedIn" : "April 13th 2012",
-    "membersInFamily" : 3,
-    "numberOfVisit" : 2,
+    "meminfamily" : 3,
+    "numofvisit" : 2,
     "members" : [
       {
         "name" : "Julio",
