@@ -1,13 +1,12 @@
-
 :root {
-    --header-color: #e1c65a; 
+    --header-color: #e1c65a;
     --background-color: #ffffff;
     --accent-color: #7c6932;
     --text-color: black;
-  
+
     --heading-font: 'Lora', serif;
     --paragraph-font: 'Muli', sans-serif;
-  
+
     --nav-background-color: #2b2d42;
     --nav-link-color: #000000;
     --nav-hover-background-color: #ddd;
@@ -38,7 +37,7 @@ body {
 
 header {
     max-width: 1200px;
-      /* border: 1px solid var(--accent-color); */
+    /* border: 1px solid var(--accent-color); */
     background-color: var(--header-color);
     margin: 0 auto;
     display: flex;
@@ -55,7 +54,8 @@ header button {
     font-size: 15px;
     cursor: pointer;
     margin-right: 30px;
-    padding: 10px 20px 30px; /* Adjusting padding as needed */
+    padding: 10px 20px 30px;
+    /* Adjusting padding as needed */
     text-align: center;
 }
 
@@ -122,7 +122,7 @@ nav {
     margin: 0 auto;
     background-color: var(--nav-background-color);
     padding: 1px;
-  } 
+}
 
 nav ul {
     list-style-type: none;
@@ -290,7 +290,7 @@ p {
 
 .discover-sidebar button {
     height: 35px;
-    background-color: #e1c65a ;
+    background-color: #e1c65a;
     border: 2px solid var(--accent-color);
     font-weight: bolder;
     font-size: 17px;
@@ -589,7 +589,7 @@ main {
 .instructions p {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    text-align: left; 
+    text-align: left;
 
 }
 
@@ -637,7 +637,7 @@ form input.submitBtn {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
-    
+
 }
 
 /* styling the thankyou page  */
@@ -650,8 +650,8 @@ table {
     border: 1px solid #000;
     border-radius: 10px;
     padding: 30px;
-    
-      
+
+
 }
 
 
@@ -668,7 +668,7 @@ tr {
     text-align: right;
     margin: 2rem 0;
     border: 1px solid #000;
-      
+
 }
 
 
@@ -679,14 +679,34 @@ td {
     width: 95%;
     border: 1px solid #000;
     text-align: center;
-    
+
 }
+
 th {
     background-color: lightgray;
-    width:  auto;
+    width: auto;
     align-items: center;
     font-size: 100%;
     font-weight: bold;
     border: 1px solid #000;
     text-align: center;
+}
+
+textarea {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
 }
