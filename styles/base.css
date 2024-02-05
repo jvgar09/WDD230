@@ -330,3 +330,13 @@ main p {
 footer {
     text-align: center;
 }
+
+
+figure {
+    width: auto;
+    height: 50px;
+    justify-content: center;
+    padding: 2rem 1rem;
+    margin: 0 0 0 45%;  
+  }
+  
