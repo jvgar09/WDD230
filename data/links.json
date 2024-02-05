@@ -1,0 +1,90 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+            {
+                "url":"week01/holygrail.html",
+                "title":"HG Layout"
+            },
+            {
+                "url":"week01/media-query.html",
+                "title":"mQueries"
+            }
+        ] 
+      },
+      {
+        "week": "Week 2",
+        "links": [
+            {
+                "url":"week02/design.html",
+                "title":"Design"
+            },
+            {
+                "url":"week02/menu.html",
+                "title":"Menu"
+            },
+            {
+                "url":"week02/bom.html",
+                "title":"bom-25"
+            }
+        ] 
+      },
+      {
+        "week": "Week 3",
+        "links": [
+            {
+                "url":"week03/.html",
+                "title":"WebP"
+            },
+            {
+                "url":"week03/.html",
+                "title":"Lazy"
+            },
+            {
+                "url":"week03/.html",
+                "title":"srcset"
+            },
+            {
+                "url":"week03/.html",
+                "title":"localStorage"
+            }
+        ] 
+      },
+      {
+        "week": "Week 4",
+        "links": [
+            {
+                "url":"week04/.html",
+                "title":""
+            },
+            {
+                "url":"week04/.html",
+                "title":""
+            },
+            {
+                "url":"week4/.html",
+                "title":""
+            }
+        ] 
+      },
+      {
+        "week": "Week 5",
+        "links": [
+            {
+                "url":"week05/.html",
+                "title":""
+            },
+            {
+                "url":"week05/.html",
+                "title":""
+            },
+            {
+                "url":"week05/.html",
+                "title":""
+            }
+        ] 
+      }
+    
+    ]
+}
