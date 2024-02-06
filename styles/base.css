@@ -258,16 +258,17 @@ nav a:active {
     padding: 12px;
     background-color: #2b2d42;
     /*rgb(1, 1, 85);*/
+    color: white;
     
 }
 
-/*.information>p {
+.information>p {
     margin-left: 16px;
     margin-bottom: 8px;
     margin-top: 20px;
     list-style-type: none;
     text-align: left;
-}*/
+}
 
 .information>.p {
     margin-left: 17px;
@@ -277,13 +278,14 @@ nav a:active {
     margin: auto;
 }
 
-figure img {
+
+figure {
     display: block;
-    width: auto;
-    height: 50px;
+    width: 100%;
+    height: 65px;
     justify-content: center;
-    padding: 2rem 1rem;
-    margin: 0 0 0 45%;  
+
+    margin:  10px 45%;  
   }
 
 
