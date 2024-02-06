@@ -22,8 +22,8 @@ const captionDesc = document.querySelector('figcaption');
 const url = 'https://api.openweathermap.org/data/2.5/weather';
 
 
-const latitude = 29.97;
-const longitude = -95.86;
+const latitude = 29.65;
+const longitude = -95.28;
 
 
 const queryParam = `?lat=${latitude}&lon=${longitude}&units=imperial&appid=66f5836c76e8f5ea0dae08aa7834ee0c`;
