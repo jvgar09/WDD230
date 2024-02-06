@@ -43,17 +43,16 @@
         </ul>
     </nav>
     <main>
-        <div class="menu">
-            <button id="grid">⏹️Grid</button>
-            <button id="list">📄List</button>
-        </div>
-        <hr>
-        <article class="grid">
-            <section>
-                <img src="/chamber/images/joe.jpg" alt="Joe Eatery" width="100" height="100">
-                <h3>Joe Eatery</h3>
-                <p>Membership: Bronze</p>
-            </section>
+        <main>
+            <div class="toggle-view">
+                <button onclick="toggleView('grid')">Grid View</button>
+                <button onclick="toggleView('list')">List View</button>
+            </div>
+        
+            <div id="members-container" class="grid-view">
+                <!-- Member information will be dynamically added here using JavaScript -->
+            </div>
+        </main>
     </main>
 
 
