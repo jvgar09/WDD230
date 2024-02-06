@@ -241,7 +241,7 @@ nav a:active {
     list-style-type: none;
 }
 
-/*.information {
+.information {
     border: 1px solid gray;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -251,15 +251,15 @@ nav a:active {
     margin-right: auto;
     width: 95%;
 
-}*/
+}
 
-/*.information>.card {
+.information>.card {
     text-align: center;
     padding: 12px;
     background-color: #2b2d42;
     /*rgb(1, 1, 85);
     
-}*/
+}
 
 /*.information>p {
     margin-left: 16px;
@@ -269,13 +269,13 @@ nav a:active {
     text-align: left;
 }*/
 
-/*.information>.p {
+.information>.p {
     margin-left: 17px;
     margin-bottom: 5px;
     list-style-type: none;
     text-align: left;
     margin: auto;
-}*/
+}
 
 figure img {
     display: block;
@@ -285,7 +285,7 @@ figure img {
     padding: 2rem 1rem;
     margin: 0 0 0 45%;  
   }
-  
+
 
 /*.active {
     background-color: rgba(0, 0, 0, 0.3)
