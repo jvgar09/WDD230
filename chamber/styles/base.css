@@ -726,6 +726,13 @@ label {
 	padding: 0.5rem;
 	background-color: rgb(150, 157, 155);
 	text-align: center;
+    .list section:nth-child(even) {
+	background-color: #bed;
+}
+}
+
+.toggle-view section:nth-child(even) {
+	background-color: rgb(133, 138, 136);
 }
 
 .toggle-view button {
