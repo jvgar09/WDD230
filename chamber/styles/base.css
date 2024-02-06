@@ -441,7 +441,7 @@ footer {
 .current-events {
     border: 0px solid gray;
     border-radius: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 
     display: block;
     margin-left: auto;
@@ -452,7 +452,7 @@ footer {
 }
 
 .current-events>.card {
-    text-align: left;
+    text-align: center;
     padding: 12px;
     background-color: #2b2d42;
 
@@ -489,7 +489,7 @@ footer {
 }
 
 .weather-card>.card {
-    text-align: left;
+    text-align: center;
     padding: 12px;
     background-color: #2b2d42;
 
@@ -526,7 +526,7 @@ footer {
 }
 
 .spotlights>.card {
-    text-align: left;
+    text-align: center;
     padding: 12px;
     background-color: #2b2d42;
 
