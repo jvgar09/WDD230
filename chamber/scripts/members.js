@@ -28,7 +28,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="member-list-item">
                     <h3>${member.name}</h3>
                     <p>${member.address}</p>
-                    <!-- Add other member information as needed -->
+                    <p>${member.address}</p>
+                    <p>${member.phone}</p>
+                    <p>${member.website}</p>
+                    <p>${member.membershipLevel}</p>
+                    <p>${member.otherInfo}</p>
                 </div>
             `;
         }
