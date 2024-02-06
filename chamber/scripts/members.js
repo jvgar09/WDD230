@@ -1,10 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Load member data from JSON file
+   
     fetch('data/members.json')
         .then(response => response.json())
         .then(data => displayMembers(data.members));
 
-    // Function to display members based on the selected view
     function displayMembers(members) {
         const membersContainer = document.getElementById('members-container');
 
@@ -42,10 +41,9 @@ document.addEventListener("DOMContentLoaded", function () {
             membersContainer.className = viewType + '-view';
         }
 
-        // Initial render with default view
+
         renderMembers('grid');
 
-        // Function to toggle between grid and list views
         window.toggleView = function (viewType) {
             renderMembers(viewType);
         };
