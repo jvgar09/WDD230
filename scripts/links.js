@@ -42,3 +42,20 @@ async function apiFetch() {
         } else {
             throw Error(await response.text());
         }
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+
+apiFetch();
+
+
+function displayResults(data) {
+    currentTemp.innerHTML = `${data.main.temp}&deg;F`;
+    const iconSrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    let desc = data.weather[0].description;
+    weatherIcon.setAttribute('src', iconSrc);
+    weatherIcon.setAttribute('alt', desc);
+    captionDesc.textContent = `${desc}`;
+}
