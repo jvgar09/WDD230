@@ -16,7 +16,7 @@
         "website": "http://www.techrus.com",
         "image": "tech.jpg",
         "membershipLevel": "Gold",
-        "otherInfo": "Servicing the could in Sienna"
+        "otherInfo": "Servicing the could in Sienna."
       },
       {
         "name": "Pho Soup and More",
@@ -43,7 +43,7 @@
         "website": "http://www.apartaments.com",
         "image": "homes.jpg",
         "membershipLevel": "Silver",
-        "otherInfo": "Keeping a roof over the heads of many Sienna residents. "
+        "otherInfo": "Keeping a roof over the heads of many Sienna residents."
       },
       {
         "name": "JIG Mashine Shop",
@@ -52,7 +52,7 @@
         "website": "http://www.jigms.com",
         "image": "shop.jpg",
         "membershipLevel": "Gold",
-        "otherInfo": "Creating tools and parts for Sienna "
+        "otherInfo": "Creating tools and parts for Sienna."
       },
       {
         "name": "Sienna HOA",
@@ -61,7 +61,7 @@
         "website": "http://www.shoa.com",
         "image": "hoa.jpg",
         "membershipLevel": "NP Member",
-        "otherInfo": "Taking your money since 1980"
+        "otherInfo": "Taking your money since 1980."
       },
       {
         "name": "Sienna Computer Repair Shop",
@@ -70,7 +70,7 @@
         "website": "http://www.scrs.com",
         "image": "computer.jpg",
         "membershipLevel": "Bronze",
-        "otherInfo": "Helping Sienna keep its Electronic Divice"
+        "otherInfo": "Helping Sienna keep its Electronic Divices."
       }
       
     ]
