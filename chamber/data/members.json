@@ -1,26 +1,78 @@
 {
-    "familyName" : "Garcia Family",
-    "movedIn" : "April 13th 2012",
-    "meminfamily" : 3,
-    "numofvisit" : 2,
-    "members" : [
+    "members": [
       {
-        "name" : "Julio",
-        "gender" : "male",
-        "birthdate" : "july 4th 1990" 
-    },
-      {
-        "name" : "Julia",
-        "gender" : "female",
-        "birthdate" : "May 5th 1990"
-    
+        "name": "Joe Eatery",
+        "address": "5671 Sienna View Dr, Sienna, Tx",
+        "phone": "101-1234",
+        "website": "http://www.joee.com",
+        "image": "joe.jpg",
+        "membershipLevel": "Bronze",
+        "otherInfo": "Feeding Sienna!"
       },
       {
-        "name" : "Eternal Flame",
-        "gender" : "male",
-        "birthdate" : "March 5th 2017"
-
-
+        "name": "Tech R Us",
+        "address": "One Code Way, Sienna, Tx",
+        "phone": "808-1234",
+        "website": "http://www.techrus.com",
+        "image": "tech.jpg",
+        "membershipLevel": "Gold",
+        "otherInfo": "Servicing the could in Sienna"
+      },
+      {
+        "name": "Pho Soup and More",
+        "address": "785 Main St, Sienna, Tx",
+        "phone": "852-1234",
+        "website": "http://www.pho.com",
+        "image": "pho.jpg",
+        "membershipLevel": "Silver",
+        "otherInfo": "Keeping Senna fed!"
+      },
+      {
+        "name": "Sienna Bank and Trust",
+        "address": "47 Money St, Sienna, Tx",
+        "phone": "478-1234",
+        "website": "http://www.sbt.com",
+        "image": "bank.jpg",
+        "membershipLevel": "Gold",
+        "otherInfo": "Keeping the money in Sienna."
+      },
+      {
+        "name": "Sienna Apartaments & Homes",
+        "address": "1235 Sieena Parkway, Sienna, Tx",
+        "phone": "851-1234",
+        "website": "http://www.apartaments.com",
+        "image": "homes.jpg",
+        "membershipLevel": "Silver",
+        "otherInfo": "Keeping a roof over the heads of many Sienna residents. "
+      },
+      {
+        "name": "JIG Mashine Shop",
+        "address": "4711 CNC Ct, Sienna, Tx",
+        "phone": "909-1234",
+        "website": "http://www.jigms.com",
+        "image": "shop.jpg",
+        "membershipLevel": "Gold",
+        "otherInfo": "Creating tools and parts for Sienna "
+      },
+      {
+        "name": "Sienna HOA",
+        "address": "123 Take UR Mula St, Sienna, Tx",
+        "phone": "555-1234",
+        "website": "http://www.shoa.com",
+        "image": "hoa.jpg",
+        "membershipLevel": "NP Member",
+        "otherInfo": "Taking your money since 1980"
+      },
+      {
+        "name": "Sienna Computer Repair Shop",
+        "address": "711 Apple St, Sienna, Tx",
+        "phone": "907-1234",
+        "website": "http://www.scrs.com",
+        "image": "computer.jpg",
+        "membershipLevel": "Bronze",
+        "otherInfo": "Helping Sienna keep its Electronic Divice"
       }
+      
     ]
   }
+  
