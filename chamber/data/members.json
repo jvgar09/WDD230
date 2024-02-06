@@ -1,0 +1,26 @@
+{
+    "familyName" : "Garcia Family",
+    "movedIn" : "April 13th 2012",
+    "meminfamily" : 3,
+    "numofvisit" : 2,
+    "members" : [
+      {
+        "name" : "Julio",
+        "gender" : "male",
+        "birthdate" : "july 4th 1990" 
+    },
+      {
+        "name" : "Julia",
+        "gender" : "female",
+        "birthdate" : "May 5th 1990"
+    
+      },
+      {
+        "name" : "Eternal Flame",
+        "gender" : "male",
+        "birthdate" : "March 5th 2017"
+
+
+      }
+    ]
+  }
