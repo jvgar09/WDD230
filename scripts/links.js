@@ -13,7 +13,7 @@ async function getLinks() {
     displayLinks(data);
   }
   
-getLinks(weeks);
+getLinks();
 
 
 
