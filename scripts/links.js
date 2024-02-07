@@ -6,7 +6,7 @@ async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
     //console.log(data);//
-    displayLinks(weeks);
+    displayLinks(data);
   }
   
 getLinks();
@@ -52,7 +52,7 @@ apiFetch();
 
 
 function displayResults(data) {
-    currentTemp.innerHTML = `${data.main.temp}&deg;F`;
+    currentTemp.innerHTML = `${Math.round(data.main.temp)}&deg;F`;
     const iconSrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     let desc = data.weather[0].description;
     weatherIcon.setAttribute('src', iconSrc);
