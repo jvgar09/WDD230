@@ -7,7 +7,7 @@ async function getLinks() {
     console.log(data);
     displayLinks(data);
  }
- getLinks();
+    getLinks();
 
 
 
