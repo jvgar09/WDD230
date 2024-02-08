@@ -263,11 +263,11 @@ nav a:active {
 }
 
 .information>p {
-    margin-left: 145px;
-    margin-bottom: 5px;
-    margin-top: 20px;
-    list-style-type: none;
-    text-align: left;
+    /*margin-left: 145px;*/
+    /*margin-bottom: 5px;*/
+    /*margin-top: 20px;*/
+    /*list-style-type: none;*/
+    text-align: center;
     
 }
 
@@ -287,14 +287,12 @@ figure {
     justify-content: center;
 
     margin:  10px 45%;  
-  }
-
+}
 
 /*.active {
     background-color: rgba(0, 0, 0, 0.3)
     color: yellow;
-}
-*/
+}*/
 
 #visits {
     color: black;
