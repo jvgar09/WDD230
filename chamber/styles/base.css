@@ -765,3 +765,11 @@ label {
     flex-direction: column;
     align-items: center;
   }
+
+.member-card img {
+    height: 100px;
+    margin: 0.25rem;
+    padding: 0.35rem;
+    
+    
+}
