@@ -752,11 +752,11 @@ label {
     height: 200px;
     border: 1px solid #333;
     padding: 10px;
-  }*/
+}*/
   
 
 
-  .members-container {
+.members-container {
     margin: 0.25rem;
     padding: 0.35rem;
     background-color: #eee;
@@ -764,7 +764,8 @@ label {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
+
 
 .member-card img {
     height: 100px;
