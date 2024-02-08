@@ -58,4 +58,10 @@ apiFetch();
 function displayResults(data) {
     currentTemp.innerHTML = `${Math.round(data.main.temp)}&deg;F`;
     const iconSrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
-    let desc = data.weather[0].d
+    let desc = data.weather[0].description;
+    weatherIcon.setAttribute('src', iconSrc);
+    weatherIcon.setAttribute('alt', desc);
+    captionDesc.textContent = `${desc}`;
+}
+
+
