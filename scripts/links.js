@@ -1,10 +1,7 @@
-//const baseURL = "https://yourgithubusername.github.io/wdd230/";//
 
-const baseURL = "https://yourgithubusername.github.io/wdd230/";
+const baseURL = "https://jvgar09.github.io/wdd230/";
 
-//const linksURL = "https://yourgithubusername.github.io/wdd230/data/links.json";//
-
-const linksURL = "https://yourgithubusername.github.io/wdd230/data/links.json";
+const linksURL = "https://jvgar09.github.io/wdd230/data/links.json";
 
 async function getLinks() {
     const response = await fetch(linksURL);
