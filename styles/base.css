@@ -342,4 +342,12 @@ iframe {
 }
 main p {
     margin-top: 2rem;
-    mar
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+
