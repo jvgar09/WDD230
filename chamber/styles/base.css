@@ -30,10 +30,8 @@
 body {
     font-family: var(--paragraph-font);
     font-family: "Roboto mono", monospace;
-    padding: 20px;
+    /*padding: 20px;*/
 }
-
-
 
 header {
     max-width: 1200px;
@@ -46,6 +44,8 @@ header {
     padding: 10px;
 
 }
+
+
 
 header button {
     height: 25px;
