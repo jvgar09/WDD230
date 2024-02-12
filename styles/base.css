@@ -153,7 +153,7 @@ main {
 .hero img {
     width: 100%;
     height: auto;
-    object-fit: cover;
+    /*object-fit: cover;*/
 }
 
 .herolabel {
@@ -282,12 +282,12 @@ nav a:active {
 
 
 figure {
+
     display: block;
-    width: 90%;
+    width: 80%;
     height: 50px;
     justify-content: center;
-
-    margin:  10px 45%;  
+    margin: 10px 45%; 
 }
 
 figcaption {
