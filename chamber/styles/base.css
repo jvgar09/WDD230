@@ -785,14 +785,14 @@ label {
     border: none;
     cursor: pointer;
     width: 44px;
-    padding: .50rem 1vw;
+    padding: 1rem 1vw;
     float: right;
   }
   
   .banner {
     display: block;
     margin-top: 2rem;
-    border: 2px solid var(--header-color);
+    border: 2px solid #2b2d42;
     padding: 10px;
   }
   
