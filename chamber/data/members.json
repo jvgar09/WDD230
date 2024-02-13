@@ -15,7 +15,7 @@
       "phone": "808-1234",
       "website": "http://www.techrus.com",
       "image": "tech.jpg",
-      "membershipLevel": "Gold",
+      "membershipLevel": "Bronze",
       "otherInfo": "Servicing the could in Sienna."
     },
     {
@@ -51,7 +51,7 @@
       "phone": "909-1234",
       "website": "http://www.jigms.com",
       "image": "shop.jpg",
-      "membershipLevel": "Gold",
+      "membershipLevel": "Bronze",
       "otherInfo": "Creating tools and parts for Sienna."
     },
     {
