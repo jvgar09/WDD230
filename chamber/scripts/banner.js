@@ -1,4 +1,3 @@
-
 const closeBtn = document.getElementById("close");
 const displayBanner = document.querySelector(".banner");
 
