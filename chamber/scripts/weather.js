@@ -45,4 +45,3 @@ function displayResults(data) {
     captionDesc.textContent = `${desc}`;
 }
 
-
