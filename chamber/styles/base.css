@@ -839,30 +839,4 @@ label {
     cursor: pointer;
     width: 44px;
     padding: 1rem 1vw;
-    float: right;
-  }
-  
-  .banner {
-    display: block;
-    margin-top: 2rem;
-    border: 2px solid #2b2d42;
-    padding: 10px;
-  }
-  
-  .banner h2{
-    text-align: center;
-  }
-  
-  .banner h3{
-    margin: 0;
-    text-align: center;
-  }
-  
-  .banner section{
-    padding: 25px;
-    border: 2px solid black;
-    background-color: #ffffff;
-  }
-  
-  
-  
+    float
