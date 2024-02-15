@@ -290,10 +290,13 @@ figure {
     margin: 10px 45%; 
 }
 
-figcaption {
- 
-    margin-left: auto;
-   
+
+
+figure figcaption {
+    margin-left: -15%;
+    margin-bottom: 10px;
+    padding: .1px;
+      
 }
 
 /*.active {
