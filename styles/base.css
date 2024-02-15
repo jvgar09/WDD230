@@ -346,4 +346,11 @@ iframe {
 main p {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    text-a
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+
