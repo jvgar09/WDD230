@@ -566,6 +566,11 @@ figure figcaption {
     margin-bottom: 8px;
     list-style-type: none;
     text-align: center;
+    
+}
+
+.spotlights-card img {
+    margin-bottom: 1rem;
 }
 
 main p {
