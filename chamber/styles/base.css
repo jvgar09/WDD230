@@ -510,6 +510,13 @@ footer {
     text-align: center;
 }
 
+.weather-card>button {
+    margin-left: 60px;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+    
+}
 
 .spotlights {
     border: 0px solid gray;
