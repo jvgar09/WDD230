@@ -2,7 +2,7 @@
 const apiKey = '66f5836c76e8f5ea0dae08aa7834ee0c'; // 66f5836c76e8f5ea0dae08aa7834ee0c
 
 const lat = 29.53901;
-const long = -95.53499;
+const lon = -95.53499;
 
 // Function to fetch weather data
 async function fetchWeatherData() {
@@ -12,7 +12,7 @@ async function fetchWeatherData() {
         const currentWeatherData = await response.json();
 
         // Fetch three-day forecast data
-        const forecastResponse = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&units=imperial&appid=${apiKey}`);
+        const forecastResponse = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`);
         const forecastData = await forecastResponse.json();
         //console.log(forecastData);
 
@@ -40,7 +40,7 @@ async function fetchWeatherData() {
 
 async function weather(){
     // const forecast = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${long}&exclude=hourly&appid=${apiKey}`)
-    const forecast = await fetch(`https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${long}&cnt=3&appid=${apiKey}`)
+    const forecast = await fetch(`https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${lon}&cnt=3&appid=${apiKey}`)
     // const forecast = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=imperial&appid=66f5836c76e8f5ea0dae08aa7834ee0c`);
     const data = await forecast.json();
     console.log(data);
@@ -94,20 +94,4 @@ toggleButton.addEventListener('click', function () {
 
 //const getThreeDayForecast = async () => {
 //    try {
-//        const response = await fetch(forecastUrl);
-//        const data = await response.json();
-//        const forecastList = data.list.slice(0, 8);
-
-//        const forecastUl = document.getElementById('forecastList');
-//        forecastList.forEach(entry => {
-//            const listItem = document.createElement('li');
-//            listItem.innerText = `${entry.dt_txt}: ${entry.main.temp} °F`;
-//            forecastUl.appendChild(listItem);
-//        });
-//    } catch (error) {
-//        console.error('Error fetching forecast:', error);
-//    }
-//};
-
-//getCurrentWeather();
-//getThreeDayForecast();
+//        const

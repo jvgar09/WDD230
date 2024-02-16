@@ -531,6 +531,9 @@ figure figcaption {
       
 }
 
+.weather-card h3 {
+    text-align: center;
+}
 
 
 .spotlights {
