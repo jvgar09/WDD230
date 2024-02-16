@@ -49,6 +49,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function showMessage(message) {
     // Display the message in the sidebar
-    document.getElementById('message').textContent = message;
+    // document.getElementById('message').textContent = message;
 }
 

@@ -1,7 +1,8 @@
 
-const apiKey = '66f5836c76e8f5ea0dae08aa7834ee0c';
-const latitude = 29.53901;
-const longitude = -95.53499;
+const apiKey = '66f5836c76e8f5ea0dae08aa7834ee0c'; // 66f5836c76e8f5ea0dae08aa7834ee0c
+
+const lat = 29.53901;
+const long = -95.53499;
 
 // Function to fetch weather data
 async function fetchWeatherData() {
@@ -37,6 +38,18 @@ async function fetchWeatherData() {
     }
 }
 
+async function weather(){
+    // const forecast = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${long}&exclude=hourly&appid=${apiKey}`)
+    const forecast = await fetch(`https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${long}&cnt=3&appid=${apiKey}`)
+    // const forecast = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=imperial&appid=66f5836c76e8f5ea0dae08aa7834ee0c`);
+    const data = await forecast.json();
+    console.log(data);
+}
+
+weather();
+
+
+
 
 
 // Get the button and div elements
@@ -45,6 +58,7 @@ const container = document.getElementById('weather-info');
 
 // Hide the container on page load
 container.style.display = 'none';
+console.log(container.style.display);
 
 // Add event listener to the button
 toggleButton.addEventListener('click', function () {
@@ -68,32 +82,16 @@ toggleButton.addEventListener('click', function () {
 ///const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}`;
 
 ///const getCurrentWeather = async () => {
-try {
-    const response = await fetch(apiUrl);
-    const data = await response.json();
-    document.getElementById('currentTemperature').innerText = `Temperature: ${data.main.temp} °F`;
-    document.getElementById('currentDescription').innerText = `Description: ${data.weather[0].description}`;
-} catch (error) {
-    console.error('Error fetching current weather:', error);
-}
+// try {
+//     const response = await fetch(apiUrl);
+//     const data = await response.json();
+//     document.getElementById('currentTemperature').innerText = `Temperature: ${data.main.temp} °F`;
+//     document.getElementById('currentDescription').innerText = `Description: ${data.weather[0].description}`;
+// } catch (error) {
+//     console.error('Error fetching current weather:', error);
+// }
 //};
 
 //const getThreeDayForecast = async () => {
 //    try {
-//        const response = await fetch(forecastUrl);
-//        const data = await response.json();
-//        const forecastList = data.list.slice(0, 8);
-
-//        const forecastUl = document.getElementById('forecastList');
-//        forecastList.forEach(entry => {
-//            const listItem = document.createElement('li');
-//            listItem.innerText = `${entry.dt_txt}: ${entry.main.temp} °F`;
-//            forecastUl.appendChild(listItem);
-//        });
-//    } catch (error) {
-//        console.error('Error fetching forecast:', error);
-//    }
-//};
-
-//getCurrentWeather();
-//getThreeDayForecast();
+//        con
