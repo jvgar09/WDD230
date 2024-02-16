@@ -4,16 +4,17 @@ const apiKey = '66f5836c76e8f5ea0dae08aa7834ee0c'; // 66f5836c76e8f5ea0dae08aa78
 const lat = 29.53901;
 const lon = -95.53499;
 
+
 // Function to fetch weather data
 async function fetchWeatherData() {
     try {
         // Fetch current weather data
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`);
+       const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`);
         const currentWeatherData = await response.json();
 
         // Fetch three-day forecast data
-        const forecastResponse = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`);
-        const forecastData = await forecastResponse.json();
+       const forecastResponse = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`);
+       const forecastData = await forecastResponse.json();
         //console.log(forecastData);
 
         // Extract required information
@@ -28,8 +29,8 @@ async function fetchWeatherData() {
              <p>Current Temp - ${currentTemperature}&#x2109;</p>
              <p>Description - ${currentWeatherDescription}</p>
              <h2>3 Day Forecast</h2>
-             <p>${forecastData.city.name}, ${forecastData.city.country}</p>
-             <p>
+            <p>${forecastData.city.name}, ${forecastData.city.country}</p>
+            <p>
                  ${threeDayForecast.map(item => `<p>Date:${item.dt_txt}  Temp:${item.main.temp} &#x2109; Description:${item.weather[0].description} </p>`).join('')}
              </p>
          `;
@@ -47,8 +48,6 @@ async function weather(){
 }
 
 weather();
-
-
 
 
 
