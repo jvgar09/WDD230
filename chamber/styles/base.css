@@ -459,15 +459,15 @@ footer {
     color: white;
 }
 
-.current-events>ul {
+.current-events>h4 {
     margin: 12px;
 }
 
-.current-events>ul {
+.current-events>h5 {
     margin: 12px;
 }
 
-.current-events>ul>li {
+.current-events>p {
     margin-left: 16px;
     margin-bottom: 8px;
     list-style-type: none;
