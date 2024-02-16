@@ -9,12 +9,12 @@ const lon = -95.53499;
 async function fetchWeatherData() {
     try {
         // Fetch current weather data
-       const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`);
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`);
         const currentWeatherData = await response.json();
 
         // Fetch three-day forecast data
-       const forecastResponse = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`);
-       const forecastData = await forecastResponse.json();
+        const forecastResponse = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`);
+        const forecastData = await forecastResponse.json();
         //console.log(forecastData);
 
         // Extract required information
@@ -39,7 +39,7 @@ async function fetchWeatherData() {
     }
 }
 
-async function weather(){
+async function weather() {
     // const forecast = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${long}&exclude=hourly&appid=${apiKey}`)
     const forecast = await fetch(`https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${lon}&cnt=3&appid=${apiKey}`)
     // const forecast = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=imperial&appid=66f5836c76e8f5ea0dae08aa7834ee0c`);
