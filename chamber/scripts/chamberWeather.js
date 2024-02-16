@@ -12,7 +12,7 @@ async function fetchWeatherData() {
         const currentWeatherData = await response.json();
 
         // Fetch three-day forecast data
-        const forecastResponse = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`);
+        const forecastResponse = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&units=imperial&appid=${apiKey}`);
         const forecastData = await forecastResponse.json();
         //console.log(forecastData);
 
@@ -94,20 +94,4 @@ toggleButton.addEventListener('click', function () {
 
 //const getThreeDayForecast = async () => {
 //    try {
-//        const response = await fetch(forecastUrl);
-//        const data = await response.json();
-//        const forecastList = data.list.slice(0, 8);
-
-//        const forecastUl = document.getElementById('forecastList');
-//        forecastList.forEach(entry => {
-//            const listItem = document.createElement('li');
-//            listItem.innerText = `${entry.dt_txt}: ${entry.main.temp} °F`;
-//            forecastUl.appendChild(listItem);
-//        });
-//    } catch (error) {
-//        console.error('Error fetching forecast:', error);
-//    }
-//};
-
-//getCurrentWeather();
-//getThreeDayForecast();
+//        const respons
