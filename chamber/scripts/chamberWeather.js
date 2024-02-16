@@ -1,4 +1,4 @@
-// OpenWeatherMap API key
+
 const apiKey = '66f5836c76e8f5ea0dae08aa7834ee0c';
 const latitude = 29.53901;
 const longitude = -95.53499;
@@ -24,9 +24,9 @@ async function fetchWeatherData() {
         // Display weather information
         const weatherInfoContainer = document.getElementById('weather-info');
         weatherInfoContainer.innerHTML = `
-             <p>Current Temperature: ${currentTemperature}&#x2109;</p>
-             <p>Description: ${currentWeatherDescription}</p>
-             <h2>Three Day Forecast:</h2>
+             <p>Current Temp - ${currentTemperature}&#x2109;</p>
+             <p>Description - ${currentWeatherDescription}</p>
+             <h2>3 Day Forecast</h2>
              <p>${forecastData.city.name}, ${forecastData.city.country}</p>
              <p>
                  ${threeDayForecast.map(item => `<p>Date:${item.dt_txt}  Temp:${item.main.temp} &#x2109; Description:${item.weather[0].description} </p>`).join('')}
