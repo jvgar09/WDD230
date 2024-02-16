@@ -94,4 +94,20 @@ toggleButton.addEventListener('click', function () {
 
 //const getThreeDayForecast = async () => {
 //    try {
-//        const
+//        const response = await fetch(forecastUrl);
+//        const data = await response.json();
+//        const forecastList = data.list.slice(0, 8);
+
+//        const forecastUl = document.getElementById('forecastList');
+//        forecastList.forEach(entry => {
+//            const listItem = document.createElement('li');
+//            listItem.innerText = `${entry.dt_txt}: ${entry.main.temp} °F`;
+//            forecastUl.appendChild(listItem);
+//        });
+//    } catch (error) {
+//        console.error('Error fetching forecast:', error);
+//    }
+//};
+
+//getCurrentWeather();
+//getThreeDayForecast();
