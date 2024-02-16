@@ -12,7 +12,7 @@ async function fetchWeatherData() {
         const currentWeatherData = await response.json();
 
         // Fetch three-day forecast data
-        const forecastResponse = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`);
+        const forecastResponse = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=imperial&appid=${apiKey}`);
         const forecastData = await forecastResponse.json();
         //console.log(forecastData);
 
