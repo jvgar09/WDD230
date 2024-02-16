@@ -40,8 +40,8 @@ async function fetchWeatherData() {
 
 
 // Get the button and div elements
-const toggleButton = document.getElementById('forecast');
-const container = document.getElementById('forecastList');
+const toggleButton = document.getElementById('weather-show');
+const container = document.getElementById('weather-info');
 
 // Hide the container on page load
 container.style.display = 'none';
