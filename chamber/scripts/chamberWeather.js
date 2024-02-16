@@ -1,4 +1,3 @@
-
 const apiKey = '66f5836c76e8f5ea0dae08aa7834ee0c'; // 66f5836c76e8f5ea0dae08aa7834ee0c
 
 const lat = 29.53901;
@@ -40,9 +39,9 @@ async function fetchWeatherData() {
 }
 
 async function weather() {
-    // const forecast = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${long}&exclude=hourly&appid=${apiKey}`)
+    //const forecast = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=hourly&appid=${apiKey}`)
     const forecast = await fetch(`https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${lon}&cnt=3&appid=${apiKey}`)
-    // const forecast = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=imperial&appid=66f5836c76e8f5ea0dae08aa7834ee0c`);
+    //const forecast = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=imperial&appid=66f5836c76e8f5ea0dae08aa7834ee0c`);
     const data = await forecast.json();
     console.log(data);
 }
@@ -57,7 +56,7 @@ const container = document.getElementById('weather-info');
 
 // Hide the container on page load
 container.style.display = 'none';
-console.log(container.style.display);
+//console.log(container.style.display);
 
 // Add event listener to the button
 toggleButton.addEventListener('click', function () {
